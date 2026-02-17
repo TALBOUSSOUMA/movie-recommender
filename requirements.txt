@@ -1,20 +1,24 @@
-# Data manipulation
-pandas==2.0.3
-numpy==1.24.3
+# Data manipulation - versions compatibles Python 3.14
+pandas>=2.2.0
+numpy>=1.26.0
 
 # Machine Learning
-scikit-learn==1.3.0
+scikit-learn>=1.4.0
 
 # Web interface
-streamlit==1.25.0
+streamlit>=1.31.0
 
 # API (optionnel pour plus tard)
-fastapi==0.100.0
-uvicorn==0.23.1
+fastapi>=0.110.0
+uvicorn>=0.29.0
 
 # Utils
-python-dotenv==1.0.0
-requests==2.31.0
-matplotlib==3.7.2
-seaborn==0.12.2
-jupyter==1.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+jupyter>=1.0.0
+
+# Ajout de setuptools (nécessaire pour l'installation)
+setuptools>=69.0.0
+wheel>=0.42.0
