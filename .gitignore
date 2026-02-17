@@ -1,0 +1,39 @@
+# Données
+data/*.csv
+data/*.zip
+data/*.json
+
+# Modèles
+models/*.pkl
+models/*.h5
+models/*.joblib
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Environnement virtuel
+venv/
+env/
+ENV/
+.venv/
+virtualenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Notebooks (optionnel, on garde pour l'instant)
+# notebooks/*.ipynb
+
+# Fichiers système
+.DS_Store
+Thumbs.db
